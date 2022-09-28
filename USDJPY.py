@@ -16,7 +16,7 @@ def v_concat_files (folder: str) -> pd.DataFrame:#垂直拼接表格
     return df_all
 
 df_1s = v_concat_files(
-        'D:/DeutscheBank/week_1/USDJPY_1s/USDJPY',
+        'D:/USDJPY',
         )
 
 
